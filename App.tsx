@@ -26,7 +26,7 @@ const App = () => {
 
     <NavigationContainer>
 
-      <Stack.Navigator initialRouteName="Homepage">
+      <Stack.Navigator initialRouteName="Availbilitypage ">
 
         <Stack.Screen name="Homepage" component={Home} options={{ headerShown: false }} />
         <Stack.Screen name="Edithomepage" component={Edithome} options={{ headerShown: false }} />

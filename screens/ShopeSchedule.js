@@ -13,7 +13,7 @@ const ShopeSchedule = ({ navigation }) => {
             ]}>
             <View style={{ flex: 1, backgroundColor: '#FFFFFF', flexDirection: "row", alignItems: "center", paddingLeft: 10 }}>
 
-                <TouchableOpacity style={{ width: 36, height: 34, }} onPress={() => navigation.navigate('Homepage', { name: 'Homepage' })} >
+                <TouchableOpacity style={{ width: 36, height: 34, }} onPress={() => navigation.navigate('profilepage', { name: 'profilepage' })}>
                     <Image source={require('../images/leftarrow.png')} />
                 </TouchableOpacity>
                 <Text style={{ color: '#222222', fontSize: 18, fontWeight: 400, paddingLeft: 10 }}>
@@ -21,7 +21,7 @@ const ShopeSchedule = ({ navigation }) => {
                 </Text>
 
             </View>
-
+ 
             <View style={styles.aaa}>
 
                 <Text style={{ color: '#444', fontSize: 14, fontWeight: 400, width: 343, paddingLeft: 20, marginTop: 20 }}>

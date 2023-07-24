@@ -9,7 +9,7 @@ const Home = ({ navigation }) => {
     <SafeAreaView
       style={[
         styles.container,
-        {
+        { 
           flexDirection: 'column',
         },
       ]}

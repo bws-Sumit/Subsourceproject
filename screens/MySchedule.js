@@ -17,13 +17,13 @@ const MySchedule = ({ navigation }) => {
             <View style={{ flex: 1, backgroundColor: '#FFFFFF', flexDirection: "row", justifyContent: "space-around", alignItems: "center", }}>
 
 
-                <TouchableOpacity style={{ width: 25, height: 25, marginRight: 10 }} onPress={() => navigation.navigate('profilepage', { name: 'profilepage' })}>
+                <TouchableOpacity style={{ width: 25, height: 25, marginRight: 10 }} onPress={() => navigation.navigate('Homepage', { name: 'Homepage' })}>
                     <Image source={require('../images/lefterro.png')} />
                 </TouchableOpacity>
 
                 <Text style={{ color: "#222", fontSize: 18, fontWeight: 400, height: 27, width: 114, marginRight: 150, marginTop: 10 }}>My Schedule</Text>
 
-                <TouchableOpacity style={{ width: 25, height: 25, marginRight: 10 }}>
+                <TouchableOpacity style={{ width: 25, height: 25, marginRight: 10 }} >
                     <Image source={require('../images/calenedit.png')} />
                 </TouchableOpacity>
 
@@ -38,7 +38,7 @@ const MySchedule = ({ navigation }) => {
                             <Text style={{ width: 47, height: 16, color: "#FFF", fontSize: 14, fontWeight: 400, left: 300, top: -5 }}>#4583</Text>
                         </View>
 
-                        <View>
+                        <View >
                             <View style={{ width: 10, height: 10, left: 32, top: 18, left: 16 }}>
                                 <Image source={require('../images/greendot123.png')} />
                             </View>
@@ -111,7 +111,7 @@ const MySchedule = ({ navigation }) => {
                             </Modal>
                         </View>
 
-                        <View style={{ top: -35 }}>
+                        <View style={{ top: -55 }}>
                             <View style={{ width: 10, height: 10, left: 32, top: 18, left: 16 }}>
                                 <Image source={require('../images/greendot123.png')} />
                             </View>

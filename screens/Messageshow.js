@@ -14,7 +14,7 @@ const Messageshow = ({ navigation }) => {
 
             <View style={{ flex: 1, backgroundColor: '#FFF', flexDirection: "row", alignItems: "center", paddingHorizontal: 12 }}>
 
-                <TouchableOpacity style={{ width: 36, height: 34, top: 5 }} onPress={() => navigation.navigate('profilepage', { name: 'profilepage' })}>
+                <TouchableOpacity style={{ width: 36, height: 34, top: 5 }} onPress={() => navigation.navigate('Homepage', { name: 'Homepage' })}>
                     <Image source={require('../images/leftarrow.png')} />
                 </TouchableOpacity>
                 <Text style={{ color: "#222", fontSize: 18, fontWeight: 400, width: 118, height: 24, left: 20, top: 5 }}>Message</Text>
